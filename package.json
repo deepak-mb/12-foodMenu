@@ -2,7 +2,7 @@
   "name": "12-food_menu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://deepak-mb.github.io/12-food_menu/",
+  "homepage": "https://deepak-mb.github.io/12-foodmenu/",
   "dependencies": {
     "axios": "^0.19.0",
     "classnames": "^2.2.6",
@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
